@@ -6,15 +6,14 @@ import java.util.Scanner;
 
 public class DayOne {
 
-    private String fileLocation;
-
+    
     private ArrayList<Integer> inputNumbers;
     private ArrayList<Integer> solutionValues;
     private Integer solution;
 
 
     public DayOne(String fileLocation, Integer mode) throws Exception {
-        this.fileLocation = fileLocation;
+       
         this.inputNumbers = getInput(fileLocation);
         this.solutionValues = findValues(mode);
         this.solution = multiplySolutionValues(solutionValues);
