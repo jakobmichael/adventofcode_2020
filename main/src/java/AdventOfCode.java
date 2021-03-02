@@ -1,7 +1,6 @@
 package main.src.java;
 
 import main.src.java.DayThree.DayThree;
-import main.src.java.DayTwo.DayTwo;
 
 public class AdventOfCode {
 
@@ -9,7 +8,7 @@ public class AdventOfCode {
     
     //private static String fileLocationTwo = "C:/devel/adventofcode_2020/main/src/java/DayTwo/DayTwoInput.txt";
     
-    private static String fileLocationThree = "C:/devel/adventofcode_2020/main/src/java/DayThree/DayThreeInput.txt";
+    private static String fileLocationThree = "/home/jakob-michael/Dokumente/devel/adventofcode_2020/main/src/java/DayThree/DayThreeInput.txt";
     public static void main(String args[]) throws Exception {
         /*enter 1 for part one, 2 for part two
         DayOne dayOne = new DayOne(fileLocationOne,2);
@@ -20,13 +19,13 @@ public class AdventOfCode {
 
         DayThree dayThree = new DayThree(fileLocationThree);
         System.out.println(dayThree.getNumberOfTrees());
-        Integer solutionDayTwo = 1;
+        Integer solutionDayThree = 1;
         
         for (Integer trees : dayThree.getNumberOfTrees()) {
-            solutionDayTwo *= trees;
+            solutionDayThree *= trees;
         }
 
-        System.out.println(solutionDayTwo);
+        System.out.println(solutionDayThree);
 
 
 
