@@ -1,5 +1,6 @@
 package main.src.java;
 
+import main.src.java.DayFour.DayFour;
 import main.src.java.DayThree.DayThree;
 
 public class AdventOfCode {
@@ -8,7 +9,9 @@ public class AdventOfCode {
     
     //private static String fileLocationTwo = "C:/devel/adventofcode_2020/main/src/java/DayTwo/DayTwoInput.txt";
     
-    private static String fileLocationThree = "/home/jakob-michael/Dokumente/devel/adventofcode_2020/main/src/java/DayThree/DayThreeInput.txt";
+    //private static String fileLocationThree = "/home/jakob-michael/Dokumente/devel/adventofcode_2020/main/src/java/DayThree/DayThreeInput.txt";
+
+    private static String fileLocationFour = "/home/jakob-michael/Dokumente/devel/adventofcode_2020/main/src/java/DayFour/DayFourInput.txt";
     public static void main(String args[]) throws Exception {
         /*enter 1 for part one, 2 for part two
         DayOne dayOne = new DayOne(fileLocationOne,2);
@@ -17,7 +20,7 @@ public class AdventOfCode {
         // DayTwo dayTwo = new DayTwo(fileLocationTwo,1);
         // System.out.println(dayTwo.getNumberOfValidPW());
 
-        DayThree dayThree = new DayThree(fileLocationThree);
+        /*DayThree dayThree = new DayThree(fileLocationThree);
         System.out.println(dayThree.getNumberOfTrees());
         Integer solutionDayThree = 1;
         
@@ -25,7 +28,10 @@ public class AdventOfCode {
             solutionDayThree *= trees;
         }
 
-        System.out.println(solutionDayThree);
+        System.out.println(solutionDayThree);*/
+
+        DayFour dayFour = new DayFour(fileLocationFour);
+        System.out.println(dayFour.getValidPassports());
 
 
 
