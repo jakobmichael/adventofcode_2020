@@ -2,6 +2,7 @@ package main.src.java;
 
 import main.src.java.DayFive.DayFive;
 import main.src.java.DayFour.DayFour;
+import main.src.java.DaySix.DaySix;
 import main.src.java.DayThree.DayThree;
 
 public class AdventOfCode {
@@ -14,7 +15,9 @@ public class AdventOfCode {
 
     //private static String fileLocationFour = "/home/jakob-michael/Dokumente/devel/adventofcode_2020/main/src/java/DayFour/DayFourInput.txt";
 
-    private static String fileLocationFive = "C:/devel/adventofcode_2020/main/src/java/DayFive/DayFiveInput.txt";
+    //private static String fileLocationFive = "C:/devel/adventofcode_2020/main/src/java/DayFive/DayFiveInput.txt";
+    
+    private static String fileLocationSix = "C:/devel/adventofcode_2020/main/src/java/DaySix/DaySixInput.txt";
     
     public static void main(String args[]) throws Exception {
         /*enter 1 for part one, 2 for part two
@@ -37,8 +40,13 @@ public class AdventOfCode {
         //DayFour dayFour = new DayFour(fileLocationFour);
         //System.out.println(dayFour.getValidPassports());
 
-        DayFive dayFive = new DayFive(fileLocationFive);
-        System.out.println(dayFive.getMaxSeatID());
+        // DayFive dayFive = new DayFive(fileLocationFive);
+        // System.out.println(dayFive.getMaxSeatID());
+
+        DaySix daySix = new DaySix(fileLocationSix);
+        System.out.println(daySix.getSumOfAnswers());
+        System.out.println(daySix.getSumOfAnswesTwo());
+
         
     
 
